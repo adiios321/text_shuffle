@@ -21,7 +21,7 @@ Ten projekt to prosta aplikacja webowa napisana w Symfony, która:
 
 1. **Sklonuj repozytorium lub skopiuj projekt**
    ```
-   git clone <adres-repozytorium>
+   git clone git@github.com:adiios321/text_shuffle.git
    cd text_shuffle
    ```
 
