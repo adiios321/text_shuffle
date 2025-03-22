@@ -1,0 +1,10 @@
+<h1>Przetwarzanie tekstu</h1>
+
+{% for message in app.flashes('error') %}
+    <p style="color: red;">{{ message }}</p>
+{% endfor %}
+
+<form action="{{ path('app_text_shuffle_process') }}" method="post" enctype="multipart/form-data">
+    <input type="file" name="text_file" accept=".txt" required>
+    <button type="submit">Wyślij</button>
+</form>
